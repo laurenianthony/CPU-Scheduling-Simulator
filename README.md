@@ -1,12 +1,12 @@
 # CPU Scheduling Simulator
 
----
 
 A console-based CPU scheduling simulation program written in C that lets you test multiple scheduling algorithms, view dynamic ASCII Gantt charts, and track performance metrics like waiting and turnaround times. 
 
+---
+
 ## Project Files:
 
----
 
 - cpusched.c – The main source code file containing algorithm logic and menu interfaces
 
@@ -17,7 +17,6 @@ A console-based CPU scheduling simulation program written in C that lets you tes
 
 ## Instructions
 
----
 
 Requirements:
 
@@ -33,9 +32,8 @@ The following files:
 
 ## How to Run the Program:
 
----
 
-Ready to analyze CPU performance? Here's how to run your very own CPU Scheduler in just a few steps:
+Here's how to run your  CPU Scheduler in just a few steps:
 
 Open your terminal in the folder where your files are saved and type the following:
 
