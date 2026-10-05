@@ -1,13 +1,21 @@
 # CPU Scheduling Simulator
 
-A console-based CPU scheduling simulation program written in C
+---
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+A console-based CPU scheduling simulation program written in C that lets you test multiple scheduling algorithms, view dynamic ASCII Gantt charts, and track performance metrics like waiting and turnaround times.
 
-## Tech Stack
-* **Language**: C
+## Project Files:
 
-## Features
+---
+
+* **cpusched.c** — The main source code file containing all algorithm logic and menu interfaces
+* **cpusched** — The compiled executable application
+* **README.md** — This file (instructions and documentation)
+
+## Features:
+
+---
+
 * Supports multiple classic CPU scheduling algorithms:
   * First-Come, First-Served (FCFS)
   * Shortest Job First (SJF) - both non-preemptive and preemptive modes
@@ -17,7 +25,10 @@ A console-based CPU scheduling simulation program written in C
 * Comprehensive performance metric calculations, including individual and average waiting times, turnaround times, response times, and overall CPU utilization percentages.
 * Session history tracking allowing users to review previous algorithm runs and clear records.
 
-## How to Run
+## How to Run:
+
+---
+
 1. Compile the source code using a C compiler (such as GCC):
+   ```bash
    gcc cpusched.c -o cpusched
-   ./cpusched
